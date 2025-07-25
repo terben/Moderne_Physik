@@ -1,0 +1,37 @@
+name: physik_mit_sympy
+
+channels:
+  - conda-forge
+  - plotly
+  - bokeh
+
+dependencies:
+  - python
+  - jupyter
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - scipy
+  - sympy
+  - sympy_plot_backends
+  - colorcet
+  - panel
+  - k3d
+  - vtk
+  - msgpack-python
+  - bokeh
+  - ipywidgets_bokeh
+  - plotly
+  - ipympl
+  - anywidget
+  - graphviz
+  - python-graphviz
+  - version_information
+
+# Comments:
+
+# Packages from 'sympy_plot_backends' downwards are needed for
+# the different plot backends.
+
+# The ffmpeg=6.1.2 is needed to get ffmpeg installed on Windows
+# (April 2025)
